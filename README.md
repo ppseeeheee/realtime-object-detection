@@ -12,9 +12,11 @@ The goal is to understand how a webcam works, process video frames using OpenCV,
 
 ---
 
-## ✨ Current Features
+## ✨ Features
 
 - Webcam preview using OpenCV
+- Image object detection using YOLO11
+- Save detection results as an image
 
 ---
 
@@ -22,6 +24,7 @@ The goal is to understand how a webcam works, process video frames using OpenCV,
 
 - Python
 - OpenCV
+- Ultralytics YOLO11
 - Git
 - GitHub
 
@@ -34,15 +37,27 @@ realtime-object-detection/
 ├── .gitignore
 ├── README.md
 ├── camera_test.py
-└── .venv/
+├── image_detection.py
+└── requirements.txt
 ```
+> The `.venv/`, `images/`, `results.jpg`, and `yolo11n.pt` files are excluded from Git tracking.
 
 ---
 
 ## 🚀 How to Run
 
+### Webcam Test
+
 ```bash
 python camera_test.py
+```
+
+### Image Object Detection
+
+> Put a test image inside the `images/` folder.
+
+```bash
+python image_detection.py
 ```
 
 ---
