@@ -1,14 +1,10 @@
 # Real-Time Object Detection
 
-A real-time object detection project built with Python and OpenCV.
+## 📌 Overview
 
----
+This project is a real-time object detection application built with **Python**, **OpenCV**, and **YOLO11**.
 
-## 📖 Project Overview
-
-This project is designed to learn computer vision from the ground up.
-
-The goal is to understand how a webcam works, process video frames using OpenCV, and eventually build a real-time AI object detection system using YOLO.
+The goal is to learn computer vision and object detection while gradually expanding the project into a smart factory quality inspection system.
 
 ---
 
@@ -17,6 +13,7 @@ The goal is to understand how a webcam works, process video frames using OpenCV,
 - Webcam preview using OpenCV
 - Image object detection using YOLO11
 - Save detection results as an image
+- Real-time object detection using webcam
 
 ---
 
@@ -25,8 +22,6 @@ The goal is to understand how a webcam works, process video frames using OpenCV,
 - Python
 - OpenCV
 - Ultralytics YOLO11
-- Git
-- GitHub
 
 ---
 
@@ -34,41 +29,63 @@ The goal is to understand how a webcam works, process video frames using OpenCV,
 
 ```text
 realtime-object-detection/
-├── .gitignore
-├── README.md
 ├── camera_test.py
 ├── image_detection.py
-└── requirements.txt
+├── realtime_detection.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
-> The `.venv/`, `images/`, `results.jpg`, and `yolo11n.pt` files are excluded from Git tracking.
+
+### File Description
+
+| File | Purpose |
+|------|---------|
+| `camera_test.py` | Test file for OpenCV webcam |
+| `image_detection.py` | Test file for YOLO image detection |
+| `realtime_detection.py` | Main real-time object detection application |
 
 ---
 
-## 🚀 How to Run
+## 🚫 Ignored Files
 
-### Webcam Test
+The following files and directories are excluded from GitHub using `.gitignore`.
 
-```bash
-python camera_test.py
-```
-
-### Image Object Detection
-
-> Put a test image inside the `images/` folder.
-
-```bash
-python image_detection.py
-```
+- `.venv/`
+- `__pycache__/`
+- `*.pyc`
+- `.DS_Store`
+- `yolo11n.pt`
+- `results.jpg`
+- `images/` (temporary test images)
 
 ---
 
-## 📌 Future Plans
+## ▶️ How to Run
 
-- Real-time object detection using YOLO
-- Display object labels and confidence scores
-- Detect multiple objects simultaneously
-- Improve detection performance
-- Organize the project into modules
+### 1. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Run real-time detection
+
+```bash
+python realtime_detection.py
+```
+
+Press **q** to exit.
+
+---
+
+## 🚀 Future Plans
+
+- Display confidence score
+- Detect specific objects only
+- Count detected objects
+- Display FPS
+- Performance optimization
 
 ---
 
