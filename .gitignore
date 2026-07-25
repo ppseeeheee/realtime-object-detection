@@ -7,3 +7,12 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# YOLO model
+yolo11n.pt
+
+# Generated files
+results.jpg
+
+# Temporary test images
+images/
