@@ -49,12 +49,11 @@ python camera_test.py
 
 ## 📌 Future Plans
 
-- Draw text on video
-- Draw shapes
-- Capture images
-- Record video
-- Integrate YOLO
-- Real-time object detection
+- Real-time object detection using YOLO
+- Display object labels and confidence scores
+- Detect multiple objects simultaneously
+- Improve detection performance
+- Organize the project into modules
 
 ---
 
