@@ -3,8 +3,6 @@ import cv2
 # 기본 웹캠 열기
 cap = cv2.VideoCapture(0)
 
-print("isOpened:", cap.isOpened())
-
 # 웹캠이 열리지 않으면 종료
 if not cap.isOpened():
     print("카메라를 열 수 없습니다.")
