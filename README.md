@@ -4,7 +4,7 @@
 
 This project is a real-time object detection application built with **Python**, **OpenCV**, and **YOLO11**.
 
-The goal is to learn computer vision and object detection while gradually expanding the project into a smart factory quality inspection system.
+It is a personal learning project focused on studying computer vision, OpenCV, and YOLO through hands-on implementation.
 
 ---
 
